@@ -7,7 +7,7 @@ public class MeasurableTester
    {
      
 	  //Countries
-	  System.out.println("Countries Data");
+	  System.out.println("Countries Data:");
 	  Measurable[] countries = new Measurable[3];
 	  
       countries[0] = new Country("Uruguay", 176220);
@@ -26,7 +26,7 @@ public class MeasurableTester
      
       
       //Bank Accounts
-      System.out.println("Bank account data");
+      System.out.println("Bank account data:");
       Measurable[] bank = new Measurable[3];
       
       bank[0] = new BankAccount(176220);
@@ -41,10 +41,10 @@ public class MeasurableTester
       maxData = Data.max(bank);
       System.out.println("Maximum balance: " + maxData);
       System.out.println("Expected: 513120");
-      
+      System.out.println("");
   
       //Quizzes
-      System.out.println("Quiz Data");
+      System.out.println("Quiz Data:");
       Measurable[] quiz = new Measurable[5];
       
       quiz[0] = new Quiz(95);
@@ -54,12 +54,12 @@ public class MeasurableTester
       quiz[4] = new Quiz(75);
       
       avg = Data.average(quiz);
-      System.out.println("Average: " + avg);
+      System.out.println("Average score: " + avg);
       System.out.println("Expected: 78");
       System.out.println("");
       
       maxData = Data.max(quiz);
-      System.out.println("Maximum: " + maxData);
+      System.out.println("Maximum score: " + maxData);
       System.out.println("Expected: 95");
    }
 }
