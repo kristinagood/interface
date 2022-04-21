@@ -1,6 +1,6 @@
 /**
    This program demonstrates the measurable Country class.
-*/
+
 public class MeasurableTester
 {
    public static void main(String[] args)
@@ -61,5 +61,8 @@ public class MeasurableTester
       maxData = Data.max(quiz);
       System.out.println("Maximum score: " + maxData);
       System.out.println("Expected: 95");
+      
+     
    }
 }
+*/
